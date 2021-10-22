@@ -41,7 +41,7 @@
                         <div class="col-md-6" style="padding-right:30px;">
                         <div class="form-group">
                               <label>Surname:</label>
-                              <input type="text" name="sname" class="form-control" placeholder="SurName">
+                              <input type="text" name="sname" class="form-control" placeholder="">
                               @if ($errors->has('sname'))
                                   <span class="text-danger">{{ $errors->first('sname') }}</span>
                               @endif
@@ -49,7 +49,7 @@
 
                           <div class="form-group">
                               <label>First Name:</label>
-                              <input type="text" name="fname" class="form-control" placeholder="First Name">
+                              <input type="text" name="fname" class="form-control" placeholder="">
                               @if ($errors->has('fname'))
                                   <span class="text-danger">{{ $errors->first('fname') }}</span>
                               @endif
@@ -69,7 +69,7 @@
 
                           <div class="form-group">
                               <label>Age:</label>
-                              <input type="number" name="age" class="form-control" placeholder="age">
+                              <input type="number" name="age" class="form-control" placeholder="">
                               @if ($errors->has('age'))
                                   <span class="text-danger">{{ $errors->first('age') }}</span>
                               @endif
@@ -78,7 +78,7 @@
 
                           <div class="form-group">
                               <label>Phone Number:</label>
-                              <input type="number" name="phoneNo" class="form-control" placeholder="phoneNo">
+                              <input type="number" name="phoneNo" class="form-control" placeholder="">
                               @if ($errors->has('phoneNo'))
                                   <span class="text-danger">{{ $errors->first('phoneNo') }}</span>
                               @endif
@@ -86,7 +86,7 @@
 
                           <div class="form-group">
                               <label>Email:</label>
-                              <input type="text" name="email" class="form-control" placeholder="Email">
+                              <input type="text" name="email" class="form-control" placeholder="">
                               @if ($errors->has('email'))
                                   <span class="text-danger">{{ $errors->first('email') }}</span>
                               @endif
@@ -152,7 +152,7 @@
 
                               <div class="form-group">
                                     <label>L.G.A:</label>
-                                    <input type="text" name="lga" class="form-control" placeholder="lga">
+                                    <input type="text" name="lga" class="form-control" placeholder="">
                                     @if ($errors->has('lga'))
                                         <span class="text-danger">{{ $errors->first('lga') }}</span>
                                     @endif
@@ -160,7 +160,7 @@
 
                                 <div class="form-group">
 
-                                    <label for="state2" style="justify-content: left;">State of Residential Address</label>
+                                    <label for="state2" style="justify-content: left;">State of Residence</label>
                                       <select name="state2" style="width: 100%; height:40px; background-color:white;">
                                       <option value="" selected="selected">- Select -</option>
                                       <option value="Outside Nigeria">Outside Nigeria</option>
@@ -211,20 +211,13 @@
 
 
                                 <div class="form-group">
-                                    <label>L.G.A. of Residential Address</label>
-                                    <input type="text" name="lra" class="form-control" placeholder="L.G.A">
+                                    <label>L.G.A. of Residence</label>
+                                    <input type="text" name="lra" class="form-control" placeholder="">
                                     @if ($errors->has('lra'))
                                         <span class="text-danger">{{ $errors->first('lra') }}</span>
                                     @endif
                                 </div>
 
-                                <div class="form-group">
-                                    <label>Polling Unit</label>
-                                    <input type="text" name="pu" class="form-control" placeholder="polling unit">
-                                    @if ($errors->has('pu'))
-                                        <span class="text-danger">{{ $errors->first('pu') }}</span>
-                                    @endif
-                                </div>
                         </div>
 
                       </div><br/></br>

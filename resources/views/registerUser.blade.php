@@ -39,7 +39,7 @@
 
        <div class="form-group">
            <label>Surname:</label>
-           <input type="text" name="sname" class="form-control" placeholder="SurName">
+           <input type="text" name="sname" class="form-control" placeholder="">
            @if ($errors->has('sname'))
                <span class="text-danger">{{ $errors->first('sname') }}</span>
            @endif
@@ -47,7 +47,7 @@
 
        <div class="form-group">
            <label>First Name:</label>
-           <input type="text" name="fname" class="form-control" placeholder="Name">
+           <input type="text" name="fname" class="form-control" placeholder="">
            @if ($errors->has('fname'))
                <span class="text-danger">{{ $errors->first('fname') }}</span>
            @endif
@@ -55,7 +55,7 @@
 
        <div class="form-group">
            <label>Email:</label>
-           <input type="text" name="email" class="form-control" placeholder="Email">
+           <input type="text" name="email" class="form-control" placeholder="">
            @if ($errors->has('email'))
                <span class="text-danger">{{ $errors->first('email') }}</span>
            @endif
@@ -63,7 +63,7 @@
 
        <div class="form-group">
            <label>Password:</label>
-           <input type="password" name="password" class="form-control" placeholder="Password">
+           <input type="password" name="password" class="form-control" placeholder="">
            @if ($errors->has('password'))
                <span class="text-danger">{{ $errors->first('password') }}</span>
            @endif
@@ -72,7 +72,7 @@
        
        <div class="form-group">
            <label>License Key</label>
-           <input type="text" name="token" class="form-control" placeholder="key">
+           <input type="text" name="token" class="form-control" placeholder="">
            @if ($errors->has('token'))
                <span class="text-danger">{{ $errors->first('token') }}</span>
            @endif
