@@ -112,7 +112,7 @@
    background: rgba(0, 0, 0, 0.5);
   padding: 100px;
   border-radius: 20px;   */
-  padding-top: 380px;
+  padding-top: 365px;
  
 }  
 
