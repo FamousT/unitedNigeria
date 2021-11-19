@@ -6,11 +6,11 @@
 
    
 <div class="landingPage">
-<img src="{{url('/images/one2.jpg')}}" alt="register" width="100%">
+<img src="{{url('/images/pic7.jpg')}}" alt="register" width="100%">
 </div>
 
 
-<div class="container" style="padding:15%; padding-top:5%">
+<div class="container" style="padding-left:15%; padding-right:15%; padding-top:5%">
    
 <div class= "col-md-12">
    <h1>Create an Account </h1><br/>
@@ -85,7 +85,7 @@
            <a href="/login"> | Log in</a>
        </div>
    </form>
-</div>
+</div><br/><br/>
 </div>
 
 @endsection

@@ -5,7 +5,7 @@
    
 <div class="landingPage">
 
-<img src="{{url('/images/one2.jpg')}}" alt="register" width="100%">
+<img src="{{url('/images/pic7.jpg')}}" alt="register" width="100%">
 
 </div>
 

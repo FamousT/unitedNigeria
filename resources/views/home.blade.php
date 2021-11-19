@@ -25,7 +25,7 @@
 	
 	<!--  -->
 	<!-- <div class="simpleslide100"> -->
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/pic3.jpg');">
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/pic6.jpg');">
 		
 		</div>
 		<!-- <div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
@@ -55,8 +55,8 @@
                         <div class="fullPage">
                         
                         <div class="centered">
-                        <h1>UNITED NIGERIA</h1>
-                        <h4>Identify With Us</h4><br/>
+                        <!-- <h1>UNITED NIGERIA</h1> -->
+                        <!-- <h4>Identify With Us</h4><br/> -->
                         <a href="/register" class="btn btn-success btn-lg active" role="button" aria-pressed="true" style="font-weight: 600; color:white;">CLICK TO REGISTER YOUR SUPPORT</a>
                             <br/><br/>
                         <a href="/viewRegistrants">View List</a> | <a href="{{ url('/login') }}">Log in</a> | <a href="{{ url('/registerUser') }}">Create Account</a>                        
@@ -103,19 +103,22 @@
 }
 
 /* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
+.centered { 
+ /* position: absolute; */
+  /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0); Fallback color
+   background: rgba(0, 0, 0, 0.5);
   padding: 100px;
-  border-radius: 20px;
-}
+  border-radius: 20px;   */
+  padding-top: 120px;
+ 
+}  
+
 .centered h1{
   font-size: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .centered h4{
