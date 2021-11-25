@@ -59,7 +59,7 @@
                         <!-- <h4>Identify With Us</h4><br/> -->
                         <a href="/register" class="btn btn-success btn-lg active" role="button" aria-pressed="true" style="font-weight: 600; color:white;">CLICK TO REGISTER YOUR SUPPORT</a>
                             <br/><br/>
-                        <a href="/viewRegistrants">View List</a> | <a href="{{ url('/login') }}">Log in</a> | <a href="{{ url('/registerUser') }}">Create Account</a>                        
+                        <!-- <a href="/viewRegistrants">View List</a> | <a href="{{ url('/login') }}">Log in</a> | <a href="{{ url('/registerUser') }}">Create Account</a>                         -->
 
 
                         </div>
@@ -112,7 +112,7 @@
    background: rgba(0, 0, 0, 0.5);
   padding: 100px;
   border-radius: 20px;   */
-  padding-top: 365px;
+  padding-top: 90%;
  
 }  
 
